@@ -1,203 +1,188 @@
-*{
-        margin: 0%;
+* {
+  margin: 0%;
 }
-
 
 /* banner section starts here */
-.banner{
-    height: 1200px;
-    max-width: 100%;
-    background-image: url('./images/banner/banner3.png');
-    background-size: 100% 60%;
-    background-repeat: no-repeat;
-    /* margin-right: auto; */
+.banner {
+  height: 808px;
+  max-width: 100%;
+  background-image: url("./images/banner/banner3.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
-.banner-text{
-  
-    height: 350px;
-    width: 400px;
-    float: right;
-    color: white;
-    text-align:end;
-    margin-top: 250px;
-    margin-right: 150px;
+.banner-text {
+  height: 350px;
+  width: 400px;
+  float: right;
+  color: white;
+  text-align: end;
+  margin-top: 150px;
+  margin-right: 250px;
 }
 
-.heading-text{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 50px;
+.heading-text {
+  font-family: "Work Sans", sans-serif;
+  font-size: 50px;
 }
 
-.banner-text p{
-    font-size: medium;
-}
-
-.btn-banner{
-    margin-top: 15px;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    color: rgb(74, 74, 231);
-    background-color: white;
+.btn-banner {
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(74, 74, 231);
+  background-color: white;
 }
 /* main section starts here*/
-.main-section{
-    display: flex;
-    justify-content: space-between;
-    height: 250px;
-    width: 100%;
-    /* margin-bottom: 150px; */
-    /* margin-top: 0px; */
-    
+.main-section {
+  display: flex;
+  justify-content: space-between;
 }
 
-.main-section img{
-    height: 550px;
-    width: 450px;
-    margin-top: -374px;
-    margin-left: 270px;
+.main-section img {
+  height: 500px;
+  width: 415px;
+  margin-top: 80px;
+  margin-left: 270px;
 }
 
-.main-section-text{
-    height: 350px;
-    width: 26%;
-    margin-top: 250px;
-    margin-right: 320px;
-    text-align:left;
-
+.main-section-text {
+  width: 26%;
+  margin-top: 200px;
+  margin-right: 320px;
+  text-align: left;
 }
 
-.second-heading{
-    font-size: 30px;
-    margin-top: -480px;
+.second-heading {
+  font-size: 30px;
 }
- .main-section-text p{
-    margin: 10px 0px;
-    font-family: 'Work Sans', sans-serif;
-
-    
- }
-
- .main-section-text ul{
-    font-family: 'Work Sans', sans-serif;
-    list-style: none;
-
- }
-
- ul li:before {
-    content: '✓';
-    color: rgb(4, 145, 121);
-    margin-right:15px;
-  }
-
-.plan-section h1{
-    text-align: center;
-    font-family: 'Work Sans', sans-serif;
-}  
-.learning-topics{
-    display: flex;
-    justify-content: center;
-    gap: 150px;
+.main-section-text p {
+  margin: 10px 0px;
+  font-family: "Work Sans", sans-serif;
 }
 
-.icons{
-    margin-top: 60px;
-    text-align: center;
+.main-section-text ul {
+  font-family: "Work Sans", sans-serif;
+  list-style: none;
 }
 
-h3{
-    margin: 10px 0px;
+ul li:before {
+  content: "✓";
+  color: rgb(4, 145, 121);
+  margin-right: 15px;
+}
+
+/* Course planning section starts here */
+
+.plan-section{
+    margin-top: 100px;
+}
+
+.plan-section h1 {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+.learning-topics {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.icons {
+  margin-top: 60px;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px 0px;
 }
 
 /* bottom image section starts here  */
 
-.bottom-image{
-    margin-top: 100px;
-    margin-left: 20%;
-    height: 250px;
-    width: 60%;
-    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(11, 54, 148, 0.9)),url('/images/watch.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    
+.bottom-image {
+  margin-top: 100px;
+  margin-left: 20%;
+  height: 250px;
+  width: 60%;
+  background-image: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(11, 54, 148, 0.9)
+    ),
+    url("/images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 
-.bottomText{
-
-   padding: 60px 20px;
-   color: white;
-   font-family: 'Work Sans', sans-serif;
-   font-size: 20px;
-   
+.bottomText {
+  padding: 60px 20px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
 }
 
-.btn2{
-    margin-top: 15px;
-    font-size: 15px;
-    padding: 15px 30px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(74, 74, 231);
-    border-radius: 5px;
-    font-weight: bold;
+.btn2 {
+  margin-top: 15px;
+  font-size: 15px;
+  padding: 15px 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(74, 74, 231);
+  border-radius: 5px;
+  font-weight: bold;
 }
-
 
 /* footer starts here  */
 
-.footer{
-    height: 500px;
-    width: 100%;
-    background-color: black;
-    color: white;
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.footer {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.footer-text{
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 200px ;
-    width: 40%;
+.footer-text {
+  font-family: "Work Sans", sans-serif;
+  margin-left: 200px;
+  width: 40%;
 }
-.footer-text h2{
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-
-.footer-form{
-    margin-right: 200px;
-    
+.footer-text h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
 }
 
-.footer-form h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+.footer-form {
+  margin-right: 200px;
 }
 
-#email{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 5px;
-    padding:15px 50px;
-    border: 2px solid white;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
+.footer-form h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
 }
 
-.btn3{
-    background-color: rgb(74, 74, 231);
-    margin-top: 15px;
-    font-size: 15px;
-    padding: 15px 30px;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-    font-weight: bold;
-    border: 0ch;
+#email {
+  font-family: "Roboto", sans-serif;
+  margin-top: 5px;
+  padding: 15px 50px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
-
-
+.btn3 {
+  background-color: rgb(74, 74, 231);
+  margin-top: 15px;
+  font-size: 15px;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-weight: bold;
+  border: 0ch;
+}
